@@ -1,7 +1,7 @@
 # 📧 Phishing Email Analysis – Cyber Security Internship Task 2
 
-## 🔍 Objective
-The goal of this task is to analyze a phishing email sample and identify suspicious indicators such as spoofed senders, mismatched URLs, and social engineering tactics.
+## 📖 Description
+Cyber Security Internship Task 2: Analyzed a phishing email sample to identify spoofed domains, suspicious links, urgent language, and social engineering tactics. Includes sample email, analysis report, and screenshots.
 
 ---
 
@@ -36,15 +36,15 @@ PayPal Security Team
 
 ### 1. Sender Analysis
 - Claimed sender: `support@paypa1-security.com`  
-- Legitimate PayPal emails only come from `@paypal.com`.  
-- Here, the attacker used **`paypa1` (number “1” instead of letter “l”)** → Spoofed domain.
+- Legitimate PayPal emails come from `@paypal.com`.  
+- Attacker used **`paypa1` (number “1” instead of letter “l”)** → Spoofed domain.
 
 ---
 
 ### 2. Header Analysis
 - `From:` shows `support@paypa1-security.com`.  
-- `Reply-To:` points to an unrelated email address.  
-- Email originates from a **non-PayPal server** (detected via header analyzer).  
+- `Reply-To:` points to an unrelated address.  
+- Sent from a **non-PayPal mail server**.  
 - **Discrepancy:** Sender name says “PayPal Support” but domain is fake.
 
 ---
@@ -52,23 +52,23 @@ PayPal Security Team
 ### 3. Content Indicators
 - **Urgent language:** “Your account will be suspended in 24 hours.”  
 - **Fear tactic** to force immediate action.  
-- **Generic greeting:** “Dear Customer” instead of personalized name.  
-- **Spelling trick:** Domain uses “paypa1” instead of “paypal”.  
+- **Generic greeting:** “Dear Customer” instead of real name.  
+- **Spelling trick:** `paypa1` instead of `paypal`.
 
 ---
 
 ### 4. Links & Attachments
 - Link text: “verify your account”  
 - Real link (hovered): `http://secure-paypal-login.verify-account.ru`  
-  - Domain `.ru` indicates foreign/untrusted origin.  
-- No attachments here, but phishing emails often include malicious `.zip` or `.exe` files.
+- Domain `.ru` indicates foreign/untrusted origin.  
+- No attachment here, but phishing emails often include malicious files.
 
 ---
 
 ### 5. Phishing Traits Identified ✅
 - Spoofed sender domain  
 - Suspicious/mismatched URLs  
-- Urgent and threatening language  
+- Urgent/threatening language  
 - Generic greeting (not personalized)  
 - Foreign/untrusted domain  
 
@@ -77,6 +77,16 @@ PayPal Security Team
 ### 6. Conclusion
 This email is a **phishing attempt**.  
 It relies on **email spoofing**, **mismatched URLs**, and **social engineering (urgency + fear)** to trick users into entering PayPal credentials on a fake website.
+
+---
+
+## 📷 Screenshots
+
+### 1. Email Header Analysis (Detailed View)
+![Header Analysis](screenshots/header-analysis.png)
+
+### 2. Header Analyzed Summary
+![Header Summary](screenshots/header-summary.png)
 
 ---
 
