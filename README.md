@@ -83,10 +83,12 @@ It relies on **email spoofing**, **mismatched URLs**, and **social engineering (
 ## 📷 Screenshots
 
 ### 1. Email Header Analysis (Detailed View)
-![Header Analysis](screenshots/header-analysis.png)
+![Header Analysis](https://drive.google.com/uc?export=view&id=1Ygh_41oI8pWkn5sBb5RrTSpn_OeWFlx5)
 
 ### 2. Header Analyzed Summary
-![Header Summary](screenshots/header-summary.png)
+![Header Summary](https://drive.google.com/uc?export=view&id=1bjCa7ak8oxp6SwAlBusNZwNSBG1Eef-A)
+
+
 
 ---
 
